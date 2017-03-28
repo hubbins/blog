@@ -4,5 +4,5 @@ To add the theme:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/1138-4EB/beautifulhugo.git beautifulhugo
+$ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 ```
