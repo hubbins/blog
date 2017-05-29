@@ -22,3 +22,7 @@ theme = "beautifulhugo"
     url = "/page/about/"
     weight = 3
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
