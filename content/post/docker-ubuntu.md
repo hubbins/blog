@@ -7,7 +7,8 @@ categories = [ "Development" ]
 +++
 Steps for creating a base container for .NET deployments in Ubuntu and deploying a sample application.
 <!--more-->
-I was interesting in the steps to create a self-contained deployment of a .NET Core app in Linux without having to
+
+I was interested in the steps to create a self-contained deployment of a .NET Core app in Linux without having to
 install the .NET Core runtime.
 
 I followed the steps in [this post](https://blogs.msdn.microsoft.com/luisdem/2017/03/19/net-core-1-1-how-to-publish-a-self-contained-application/) to puhlish an Ubuntu 16.10 standalone deployment.  This is a folder that needs to be copied and run in Ubuntu.
