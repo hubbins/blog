@@ -5,7 +5,6 @@ draft = false
 tags = [ "Development", "Docker", "C#", ".NET Core", "Ubuntu" ]
 categories = [ "Development" ]
 +++
-
 Steps for creating a base container for .NET deployments in Ubuntu and deploying a sample application.
 <!--more-->
 I was interesting in the steps to create a self-contained deployment of a .NET Core app in Linux without having to
