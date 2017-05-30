@@ -9,7 +9,7 @@ theme = "beautifulhugo"
 
 [Author]
   name = "Sean O'Connor"
-  email = "blog@soconnor.org"
+  email = "blog@hubbins.com"
   github = "hubbins"
 
 [taxonomies]
