@@ -12,6 +12,11 @@ theme = "beautifulhugo"
   email = "blog@soconnor.org"
   github = "hubbins"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
 [[menu.main]]
     name = "Blog"
     url = "/"
@@ -22,7 +27,4 @@ theme = "beautifulhugo"
     url = "/page/about/"
     weight = 3
 
-[taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
+
