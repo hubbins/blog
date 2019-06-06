@@ -168,4 +168,8 @@ I don't know what the monthly AWS bill will be to run this.  We're talking about
 
 Overall, a fun project that introduced basic sensor usage on the Pi, some basic Pi programming, and some basic IoT with AWS web services using Python.  Also allowed me to brush up on my terrible soldering skills!  
 
+Here's a photo of the "finished" product.  Imagine it with a plastic cover with a bunch of big holes drilled to allow for air flow.  It will be stuck to the wall somewhere near an electrical outlet in the garage.
+![image alt text](/images/sensor-final.jpg)
 
+And here are some text messages I received from AWS when testing detecting sensor failures and temperature threshold tests.
+![image alt text](/images/readings.jpg)
