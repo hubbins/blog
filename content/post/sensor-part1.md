@@ -76,7 +76,7 @@ The Pi Zero W is sufficient for my needs and uses less power.  The only downside
 
 The ultimate goal of the project is to turn the Pi into a temperature sensor that can periodically send the temperature reading to the cloud.  The first step is to create a circuit that includes a digital temperature sensor.  There are plenty of blog posting around on how to do this.  It's one notch in complexity above a blinking LED light.  You can get digital temperature sensors from Amazon for 5 for $10 shipped.  Other than that, just need a small breadboard for prototyping and some jumper wires.  
 
-I won't go into detail on the circuit, as I mentioned, there are many [blog postings](http://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/) on that.  Here's the detail on the circuit:  
+I won't go into detail on the circuit, as I mentioned, there are many [blog postings](http://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/) on that.  Here's the detail on the circuit (from the linked blog post):  
 
 ![image alt text](/images/diagram.png)
 
