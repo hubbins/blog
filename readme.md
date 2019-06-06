@@ -7,4 +7,10 @@ $ cd themes
 $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 ```
 
-Then delete disqus.html from the theme partials folder.
+Make this change in the theme layouts/_default/single.html
+```html
+          <div class="disqus-comments">
+            <!--{{ template "_internal/disqus.html" . }}-->
+            {{ partial "disqus.html" . }}
+          </div>
+```

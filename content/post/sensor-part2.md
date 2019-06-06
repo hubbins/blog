@@ -78,6 +78,8 @@ req.add_header("x-api-key", apikey)
 response = urllib.request.urlopen(req, jsondataasbytes)
 ```
 
+Note that some values such as http endpoint, api key, and sensor id are hard-coded in the script.  These values could also be kept in a configuration file, environment variables, etc...  Because this is a small and simple script, it's good enough to keep it self-contained.  This isn't production code.  
+
 Next we copy this file (app3.py) to the home folder of the default "pi" user /home/pi.  You can use SFTP or another means to transfer the file.  VS Code has a nice plugin (SFTP) that when you save the file to your PC, it will also save the file in a remote folder on the Pi using SFTP.  
 
 Then we can can create a cron task to run the app every 15 minutes.  Run the command "sudo crontab -e" then add this to the file:
