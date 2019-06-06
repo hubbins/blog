@@ -4,6 +4,7 @@ title = "Building an IoT temperature sensor (Part 1 of 3)"
 draft = false
 tags = [ "Development", "IoT", "RaspberryPi", "Python", "AWS" ]
 categories = [ "Development" ]
+comments = true
 +++
 How this project got started and steps to turn the Pi into a temperature sensing device.
 <!--more-->
@@ -46,7 +47,7 @@ Here are some specs I grabbed from a site:
 
 This is a very capable small computer that can run just about any linux-based software you can think of.  The key feature I needed was the 40-pin GPIO header.  
 
-![image alt text](/pi3bplus.png)
+![image alt text](/images/pi3bplus.png)
 
 Here's a somewhat less powerful Raspberry Pi Zero W with a much more attractive price tag:
 
@@ -67,7 +68,7 @@ Here's a somewhat less powerful Raspberry Pi Zero W with a much more attractive 
 * Camera Serial Interface (CSI)
 
 
-![image alt text](/pizerow.png)
+![image alt text](/images/pizerow.png)
 
 The Pi Zero W is sufficient for my needs and uses less power.  The only downside is the GPIO header is unpopulated and I will need to solder one on.  But that sounds like a fun project, so why not.  I found my Radio Shack soldering pencil from the 90's, some lead-laden solder, and I'm good to go.  
 
@@ -77,12 +78,12 @@ The ultimate goal of the project is to turn the Pi into a temperature sensor tha
 
 I won't go into detail on the circuit, as I mentioned, there are many [blog postings](http://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/) on that.  Here's the detail on the circuit:  
 
-![image alt text](/diagram.png)
+![image alt text](/images/diagram.png)
 
 
 The prototype ended up looking like this, ugly but it works:  
 
-![image alt text](/circuit.png)
+![image alt text](/images/circuit.png)
 
 The other end of the ribbon cable is connected to the GPIO port of the Pi (B+ in this case, but doesn't matter).  
 

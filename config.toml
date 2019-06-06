@@ -6,7 +6,6 @@ theme = "beautifulhugo"
 [Params]
   disqusShortname = "hubbins"
   subtitle = "Java, .NET, other Tech"
-  comments = "yes"
 
 [Author]
   name = "Sean O'Connor"
