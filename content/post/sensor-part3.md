@@ -135,6 +135,7 @@ def lambda_handler(event, context):
         
         result["sns"] = response    # return last text message result
     
+    print(timestamp + " " + str(temperature))
 
     result["timestamp"] = timestamp
     result["temperature"] = temperature
